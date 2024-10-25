@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints
+
+# Model and large binary files
+*.h5
+*.model
+*.ckpt
+models/
+
+# Image files (if temporary files are stored in project)
+*.png
+*.jpg
+*.jpeg
+
+# Flask & Python environment files
+instance/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# macOS & Windows system files
+.DS_Store
+Thumbs.db
+
+# Python and package files
+*.egg-info/
+.eggs/
+*.egg
+*.env
+*.pyenv
+*.tox
+Pipfile.lock
+
+# Output folders
+build/
+dist/
+__pycache__/
+
+# Credentials (if applicable)
+config.json
+.env  # Ensure sensitive environment variables aren't committed
+
+# IDE and editor specific files
+*.idea/
