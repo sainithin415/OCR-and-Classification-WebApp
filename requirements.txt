@@ -1,0 +1,6 @@
+flask
+tensorflow
+transformers
+torch
+pytesseract
+pillow
